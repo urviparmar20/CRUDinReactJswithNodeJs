@@ -1,0 +1,52 @@
+.containerBooks {
+  min-height: 100vh;
+  padding:20px
+}
+.tdTxt {
+  text-align: center;
+}
+.deleteBtn {
+  margin-left: 10px;
+}
+.rowView{
+  flex-direction: row;
+  display: flex;
+  justify-content:space-between;
+}
+.rowView h2{
+ margin-top: 10px;
+ margin-left: 10px;
+}
+.filterAddView {
+  margin-bottom: 20px;
+  justify-content: flex-end;
+  flex-direction: row;
+  display: flex;
+}
+.logoutView{
+  justify-content: flex-end;
+  flex-direction: row;
+  display: flex;
+  margin-bottom: 20px;
+}
+.logoutButton{
+   margin-left: 10px;
+}
+.addBtn {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.selectFilterView {
+  margin-left: 10px;
+  width: 130px;
+}
+.centerView{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.centerView h2{
+  margin-top: 50px;
+}
